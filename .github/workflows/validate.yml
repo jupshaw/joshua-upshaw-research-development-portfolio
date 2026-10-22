@@ -1,0 +1,19 @@
+name: validate-portfolio
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  python-demos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python examples/eeg_qc_demo.py
+      - run: python examples/eye_tracking_metrics_demo.py
+      - run: python examples/clinical_ml_validation_demo.py
+      - run: pytest -q

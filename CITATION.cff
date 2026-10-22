@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Joshua D. Upshaw Research & Development Portfolio"
+message: "If you use the public demonstration code or portfolio structure, please cite this repository and the relevant underlying publication when applicable."
+type: software
+authors:
+  - family-names: Upshaw
+    given-names: Joshua Daniel
+    email: jupshaw2010@gmail.com
+version: 1.0.0
+date-released: 2026-10-22
+url: "https://github.com/jupshaw"

@@ -1,0 +1,22 @@
+---
+title: "Synthetic fMRI Moderation Demonstration"
+output: html_document
+---
+
+```{r setup}
+set.seed(42)
+n <- 1119
+screen_time <- log1p(rgamma(n, shape = 2, scale = 2))
+warmth <- scale(rnorm(n, mean = 50, sd = 8))[,1]
+roi <- -0.03 * screen_time + 0.015 * screen_time * warmth + rnorm(n, sd = 0.25)
+df <- data.frame(screen_time, warmth, roi)
+```
+
+## Moderation model
+
+```{r model}
+model <- lm(roi ~ screen_time * warmth, data = df)
+summary(model)
+```
+
+This file is a **synthetic public demonstration**, not the ABCD participant-level analysis and not a reproduction of the original course-project coefficients.
