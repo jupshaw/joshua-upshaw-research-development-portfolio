@@ -2,11 +2,7 @@
 
 ![Research & Development Portfolio](assets/profile_banner.svg)
 
-# Joshua Daniel Upshaw, PhD
-
-### Clinical Data Science · Cognitive Neuroscience · Applied Machine Learning · Real-World Evidence
-
-**Research and development portfolio spanning human neuroscience, multimodal measurement, clinical data science, and healthcare AI.**
+## Research and development portfolio of Joshua Daniel Upshaw, PhD spanning human neuroscience, multimodal measurement, clinical data science, and healthcare AI.
 
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=for-the-badge)](https://scholar.google.com/citations?user=XAe-ESMAAAAJ&hl=en)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/joshua-upshaw-ph-d/)
