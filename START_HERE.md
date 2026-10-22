@@ -19,6 +19,13 @@ The key question is not whether I have used a specific tool. It is whether I can
 2. Open the `methods/` note most relevant to your team.
 3. Review one project `methods.md` and `results.md` file.
 4. Run a public synthetic example in `examples/` or open the corresponding notebook.
+5. For breadth beyond the flagship studies, review [Additional Projects](projects/06_additional_projects/).
+
+## 20-minute leadership and translation path
+
+1. Read [RESEARCH_AND_DEVELOPMENT_APPROACH.md](RESEARCH_AND_DEVELOPMENT_APPROACH.md).
+2. Review [Scientific Leadership, Service, and Communication](docs/scientific_leadership_and_service.md).
+3. Scan [Research Governance](methods/research_governance.md).
 
 ## 30-minute deep review
 
