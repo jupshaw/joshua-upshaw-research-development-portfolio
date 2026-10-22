@@ -5,8 +5,9 @@ This repository is designed for two audiences.
 ## 2-minute executive path
 
 1. Read the [Executive Summary](docs/executive_summary.md).
-2. Scan the [KSA Evidence Matrix](KSA_EVIDENCE_MATRIX.md).
-3. Open one flagship project relevant to the role:
+2. Scan the [Project Index](PROJECTS.md) for side-by-side project comparison.
+3. Scan the [KSA Evidence Matrix](KSA_EVIDENCE_MATRIX.md).
+4. Open one flagship project relevant to the role:
    - [Clinical AI + oncology RWE](projects/05_clinical_ai_oncology/)
    - [EEG/ERP digital distraction](projects/01_eeg_erp_digital_distraction/)
    - [Eye tracking + emotional attention](projects/03_eye_tracking_emotional_attention/)

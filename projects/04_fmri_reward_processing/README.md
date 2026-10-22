@@ -19,4 +19,9 @@
 | Analysis | Multiple linear regression with interaction |
 | Environment | R, RStudio, RMarkdown |
 
+## Role and scope
+
+- Graduate neuroimaging course analysis completed by Joshua Upshaw using public/restricted secondary data access workflows
+- Included as a methods and inference example; not positioned as a clinical deployment or causal-effect result
+
 See [methods.md](methods.md) and [results.md](results.md).

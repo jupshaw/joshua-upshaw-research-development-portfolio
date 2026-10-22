@@ -23,3 +23,13 @@ This matrix answers a hiring-manager question quickly: **what can Joshua do, whe
 | Technical claims governance | Explicit separation of observed, retrospective, simulated, modeled, prospective, and causal claims | Reduces scientific, regulatory, commercial, and reputational risk |
 | Cross-functional translation | NSF PI leadership across clinical, engineering, operations, compliance, executive, and external stakeholders | Converts technical evidence into requirements, risks, next actions, and investment decisions |
 | Research-to-product judgment | Retrospective feasibility -> telemetry specification -> staged prospective pilot | Uses research to define what should be built and what evidence is required before scaling |
+
+## Traceable evidence links (selected)
+
+| Capability area | Primary evidence files |
+|---|---|
+| Experimental neuroscience (EEG/ERP, spectral EEG) | [projects/01_eeg_erp_digital_distraction/methods.md](projects/01_eeg_erp_digital_distraction/methods.md), [projects/01_eeg_erp_digital_distraction/results.md](projects/01_eeg_erp_digital_distraction/results.md), [projects/02_spectral_eeg_mindfulness/methods.md](projects/02_spectral_eeg_mindfulness/methods.md), [projects/02_spectral_eeg_mindfulness/results.md](projects/02_spectral_eeg_mindfulness/results.md) |
+| Eye-tracking and multimodal attention measurement | [projects/03_eye_tracking_emotional_attention/methods.md](projects/03_eye_tracking_emotional_attention/methods.md), [projects/03_eye_tracking_emotional_attention/results.md](projects/03_eye_tracking_emotional_attention/results.md), [projects/03_eye_tracking_emotional_attention/system_design.md](projects/03_eye_tracking_emotional_attention/system_design.md) |
+| Neuroimaging inference and effect-size calibration | [projects/04_fmri_reward_processing/methods.md](projects/04_fmri_reward_processing/methods.md), [projects/04_fmri_reward_processing/results.md](projects/04_fmri_reward_processing/results.md) |
+| Clinical data science, clinical NLP, and ML validation | [projects/05_clinical_ai_oncology/methods.md](projects/05_clinical_ai_oncology/methods.md), [projects/05_clinical_ai_oncology/results.md](projects/05_clinical_ai_oncology/results.md), [projects/05_clinical_ai_oncology/prospective_design.md](projects/05_clinical_ai_oncology/prospective_design.md), [methods/model_validation.md](methods/model_validation.md) |
+| Governance, limitations awareness, and public-release boundaries | [methods/research_governance.md](methods/research_governance.md), [PUBLIC_DATA_AND_IP_POLICY.md](PUBLIC_DATA_AND_IP_POLICY.md), [RESEARCH_AND_DEVELOPMENT_APPROACH.md](RESEARCH_AND_DEVELOPMENT_APPROACH.md) |

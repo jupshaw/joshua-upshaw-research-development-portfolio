@@ -25,4 +25,9 @@
 
 BioSemi ActiveTwo, MATLAB, EEGLAB, artifact subspace reconstruction, extended Infomax ICA, ICLabel, event-locked epochs, theta/alpha/beta spectral analyses, theta/beta ratio, repeated-measures inference.
 
+## Role and scope
+
+- First and corresponding author for study design, EEG analysis, and manuscript development
+- Public portfolio materials summarize methods and findings; participant-level EEG files are not publicly released
+
 See [methods.md](methods.md), [results.md](results.md), and [technical_notes.md](technical_notes.md).
