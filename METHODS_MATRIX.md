@@ -49,3 +49,12 @@ flowchart TD
     I --> C[Calibrate claims]
     C --> N[Design next experiment or deployment gate]
 ```
+
+## Column evidence map
+
+- **EEG/ERP:** [projects/01_eeg_erp_digital_distraction/](projects/01_eeg_erp_digital_distraction/)
+- **Spectral EEG:** [projects/02_spectral_eeg_mindfulness/](projects/02_spectral_eeg_mindfulness/)
+- **Eye tracking:** [projects/03_eye_tracking_emotional_attention/](projects/03_eye_tracking_emotional_attention/)
+- **fMRI:** [projects/04_fmri_reward_processing/](projects/04_fmri_reward_processing/)
+- **Behavioral / Affective:** [projects/06_additional_projects/](projects/06_additional_projects/)
+- **Clinical AI/RWE:** [projects/05_clinical_ai_oncology/](projects/05_clinical_ai_oncology/)

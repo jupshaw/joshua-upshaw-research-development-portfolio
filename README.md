@@ -10,7 +10,7 @@
 
 `EEG / ERP` · `Spectral EEG` · `1000 Hz Eye Tracking` · `fMRI` · `Longitudinal EHR` · `Clinical NLP` · `Rare-Outcome ML`
 
-[Executive Summary](docs/executive_summary.md) · [Flagship Projects](#flagship-projects) · [Methods](METHODS_MATRIX.md) · [Technical Toolkit](TECHNICAL_TOOLKIT.md) · [KSA Evidence](KSA_EVIDENCE_MATRIX.md)
+[Executive Summary](docs/executive_summary.md) · [Project Index](PROJECTS.md) · [Flagship Projects](#flagship-projects) · [Methods](METHODS_MATRIX.md) · [Technical Toolkit](TECHNICAL_TOOLKIT.md) · [KSA Evidence](KSA_EVIDENCE_MATRIX.md)
 
 </div>
 
@@ -75,6 +75,10 @@ For the full framework, see [RESEARCH_AND_DEVELOPMENT_APPROACH.md](RESEARCH_AND_
 | **Data scientist or ML engineer** | [Clinical AI project](projects/05_clinical_ai_oncology/) → [Model Validation](methods/model_validation.md) → [`examples/`](examples/) |
 | **Neuroscience / neurotech team** | EEG → spectral EEG → eye tracking → fMRI projects, then [Technical Toolkit](TECHNICAL_TOOLKIT.md) |
 | **Clinical / regulated R&D team** | [Clinical AI](projects/05_clinical_ai_oncology/) → [Research Governance](methods/research_governance.md) → [Data & IP Policy](PUBLIC_DATA_AND_IP_POLICY.md) |
+
+### Project index (30-second scan)
+
+Use [PROJECTS.md](PROJECTS.md) for side-by-side comparison of project problem, data, methods, contributions, limitations, reproducibility status, and demonstrated capabilities.
 
 ---
 

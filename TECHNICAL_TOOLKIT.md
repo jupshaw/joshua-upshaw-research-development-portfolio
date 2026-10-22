@@ -44,3 +44,12 @@ Tools are most useful when paired with judgment. Across projects, the recurring 
 - whether a retrospective result supported research, silent evaluation, recommendation, or deployment;
 - what instrumentation the next study needed to collect;
 - how to communicate uncertainty differently to scientists, engineers, clinicians, and executives.
+
+## Evidence anchors
+
+- **EEG/ERP:** [projects/01_eeg_erp_digital_distraction/](projects/01_eeg_erp_digital_distraction/)
+- **Spectral EEG:** [projects/02_spectral_eeg_mindfulness/](projects/02_spectral_eeg_mindfulness/)
+- **Eye tracking:** [projects/03_eye_tracking_emotional_attention/](projects/03_eye_tracking_emotional_attention/)
+- **fMRI:** [projects/04_fmri_reward_processing/](projects/04_fmri_reward_processing/)
+- **Clinical AI/RWE:** [projects/05_clinical_ai_oncology/](projects/05_clinical_ai_oncology/)
+- **Breadth projects:** [projects/06_additional_projects/](projects/06_additional_projects/)

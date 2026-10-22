@@ -24,4 +24,9 @@
 
 EyeLink 1000 Plus, PsychoPy, EyeLink Data Viewer, R, fixation/AOI analysis, saccades, blinks, pupil preprocessing, reaction time, accuracy, repeated-measures ANOVA, generalized and linear mixed-effects models.
 
+## Role and scope
+
+- Dissertation project led end-to-end, including paradigm design, data collection procedures, and multimodal analysis
+- Public portfolio materials report high-level methods and findings only; participant-level gaze data are not publicly released
+
 See [methods.md](methods.md), [results.md](results.md), and [system_design.md](system_design.md).
