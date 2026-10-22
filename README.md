@@ -281,7 +281,7 @@ The [`examples/`](examples/) and [`notebooks/`](notebooks/) folders contain synt
 - Rare-outcome clinical ML with grouped vs. temporal validation, PR-AUC, calibration, and workload-aware thresholding
 
 > [!CAUTION]
-> These demonstrations are **not** the original participant-level or clinical datasets and are **not** production Hidalga code. They are public-safe examples of the underlying analytical concepts.
+> These demonstrations are **not** the original participant-level or clinical datasets and are **not** production code. They are public-safe examples of the underlying analytical concepts.
 
 ---
 
