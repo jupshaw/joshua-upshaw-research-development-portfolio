@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+  <rect width="1200" height="330" rx="18" fill="#f7f8fa"/>
+  <style>
+    .h{font:700 28px Arial,sans-serif;fill:#172b4d}.t{font:600 20px Arial,sans-serif;fill:#172b4d}.b{font:400 16px Arial,sans-serif;fill:#42526e}.m{font:700 32px Arial,sans-serif;fill:#1565c0}.s{font:400 14px Arial,sans-serif;fill:#5e6c84}
+  </style>
+  <text x="50" y="45" class="h">Evidence across modalities</text>
+  <rect x="50" y="75" width="340" height="205" rx="14" fill="#eef4ff" stroke="#9db7d5"/>
+  <text x="80" y="115" class="t">EEG / ERP</text>
+  <text x="80" y="158" class="m">Selective N2 effect</text>
+  <text x="80" y="190" class="b">Notification vs control conditions</text>
+  <text x="80" y="220" class="b">with several null endpoints retained</text>
+  <text x="80" y="255" class="s">Peer-reviewed first-author study</text>
+
+  <rect x="430" y="75" width="340" height="205" rx="14" fill="#f5f0ff" stroke="#b5a1dc"/>
+  <text x="460" y="115" class="t">1000 Hz eye tracking</text>
+  <text x="460" y="158" class="m">~38 ms</text>
+  <text x="460" y="190" class="b">Later first fixation on angry</text>
+  <text x="460" y="220" class="b">vs happy faces in dissertation data</text>
+  <text x="460" y="255" class="s">OSF-preregistered PhD dissertation</text>
+
+  <rect x="810" y="75" width="340" height="205" rx="14" fill="#edf7f0" stroke="#9bc3a8"/>
+  <text x="840" y="115" class="t">Clinical ML</text>
+  <text x="840" y="158" class="m">0.289 PR-AUC</text>
+  <text x="840" y="190" class="b">vs 0.024 prevalence baseline</text>
+  <text x="840" y="220" class="b">with grouped + calibration controls</text>
+  <text x="840" y="255" class="s">NSF SBIR retrospective feasibility</text>
+</svg>

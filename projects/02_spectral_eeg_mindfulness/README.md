@@ -8,9 +8,17 @@
 
 **Problem:** ERP peaks capture time-locked responses but do not fully characterize oscillatory neural dynamics during distraction.  
 **Approach:** Extend the notification paradigm to theta, alpha, beta, and theta/beta-ratio measures after randomized mindfulness vs neutral narration.  
-**Result:** Notifications altered task-locked spectral power and selected mindfulness-related contrasts emerged, but the omnibus group x sound TBR interaction was not significant. The interpretation was therefore deliberately bounded.
+**Result:** Notifications altered task-locked spectral power and selected mindfulness-related contrasts emerged, but the omnibus group x sound TBR interaction was not significant. Interpretation was deliberately bounded.
 
-## Study scale
+## My role
+
+- First and corresponding author
+- Study design and experimental execution
+- EEG preprocessing and spectral analysis
+- Statistical interpretation and manuscript development
+- Correction and transparent reporting of a peer-review-identified preprocessing statistic error
+
+## Data / study scale
 
 | Measure | Value |
 |---|---:|
@@ -21,13 +29,29 @@
 | EEG channels | 32 active electrodes |
 | Acquisition rate | 512 Hz |
 
-## Technical stack
+## Methods and technical implementation
 
-BioSemi ActiveTwo, MATLAB, EEGLAB, artifact subspace reconstruction, extended Infomax ICA, ICLabel, event-locked epochs, theta/alpha/beta spectral analyses, theta/beta ratio, repeated-measures inference.
+BioSemi ActiveTwo, MATLAB, EEGLAB, artifact subspace reconstruction, extended Infomax ICA, ICLabel, event-locked epochs, theta/alpha/beta spectral analyses, theta/beta ratio, and repeated-measures inference.
 
-## Role and scope
+See [methods.md](methods.md) and [technical_notes.md](technical_notes.md).
 
-- First and corresponding author for study design, EEG analysis, and manuscript development
-- Public portfolio materials summarize methods and findings; participant-level EEG files are not publicly released
+## Results
 
-See [methods.md](methods.md), [results.md](results.md), and [technical_notes.md](technical_notes.md).
+Notifications altered selected spectral bands. Some follow-up contrasts suggested condition-specific differences, but the broad group x sound TBR interaction was not statistically significant.
+
+See [results.md](results.md).
+
+## What changed because of the result
+
+The nonsignificant primary interaction prevented a generalized claim that brief mindfulness improved cognitive control under smartphone distraction. The mixed pattern reinforced a research principle used throughout this portfolio: **follow-up contrasts do not override the evidentiary meaning of the primary interaction.**
+
+## Limitations
+
+- Primary group x sound TBR interaction not significant
+- Some effects were condition-specific rather than general
+- Short mindfulness induction does not establish durable intervention effects
+- Participant-level EEG remains restricted
+
+## Reproducibility / public artifacts
+
+A synthetic event-based EEG workflow is available in [`examples/eeg_qc_demo.py`](../../examples/eeg_qc_demo.py). It demonstrates event markers, QC, epoching, ERP summaries, and frequency-domain analysis without reproducing participant data.

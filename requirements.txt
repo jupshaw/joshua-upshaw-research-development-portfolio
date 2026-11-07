@@ -1,7 +1,9 @@
-numpy>=1.26
+numpy>=2.0
 pandas>=2.0
 scipy>=1.11
 matplotlib>=3.8
 scikit-learn>=1.4
 nbformat>=5.9
+nbclient>=0.10
+ipykernel>=6.29
 pytest>=8.0
