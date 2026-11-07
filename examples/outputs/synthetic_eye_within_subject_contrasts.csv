@@ -1,0 +1,3 @@
+contrast,n_participants,angry_mean,happy_mean,mean_difference_ms,p_value,smartphone_mean,silent_mean,mean_difference
+angry_vs_happy_first_fixation,50,747.2952329722629,704.9884523271387,42.3067806451242,2.8665568125744256e-21,,,
+smartphone_vs_silent_pupil_variability,50,,,,1.1498411447065288e-24,82.78321675609499,78.71257046459151,4.0706462915034844

@@ -9,19 +9,46 @@
 **Approach:** Test screen time x caregiver-warmth interactions in predefined NAcc and anterior-insula BOLD measures during the Monetary Incentive Delay task.  
 **Result:** A right anterior-insula interaction reached significance, but adjusted R2 was only 0.0073. The effect is therefore reported as a small observational association rather than a strong explanatory model.
 
-## Study scale and tools
+## My role
 
-| Item | Value |
-|---|---|
+- Completed the secondary neuroimaging analysis as a graduate research project
+- Defined the moderation models and region-of-interest comparisons
+- Implemented reproducible analysis in R/RMarkdown
+- Interpreted statistical significance alongside explained variance and design limitations
+
+## Data / study scale
+
+| Measure | Value |
+|---|---:|
 | Analytic sample | 1,119 youth |
 | Task | Monetary Incentive Delay |
 | ROIs | Nucleus accumbens, anterior insula |
 | Analysis | Multiple linear regression with interaction |
 | Environment | R, RStudio, RMarkdown |
 
-## Role and scope
+## Methods and technical implementation
 
-- Graduate neuroimaging course analysis completed by Joshua Upshaw using public/restricted secondary data access workflows
-- Included as a methods and inference example; not positioned as a clinical deployment or causal-effect result
+ABCD secondary data, MID task ROI BOLD measures, regression with interaction terms, transformed predictors, motion/outlier controls, and reproducible RMarkdown reporting.
 
-See [methods.md](methods.md) and [results.md](results.md).
+See [methods.md](methods.md).
+
+## Results
+
+The right anterior-insula screen-time x warmth interaction met the conventional significance threshold, but the model explained very little variance. The NAcc interaction was not significant.
+
+See [results.md](results.md).
+
+## What changed because of the result
+
+The project reinforced that **statistical significance and explanatory usefulness are different questions**. A significant coefficient with adjusted R2 = 0.0073 is appropriate for hypothesis generation, not a strong mechanistic or developmental claim.
+
+## Limitations
+
+- Observational secondary analysis
+- Very small explained variance
+- No causal inference
+- Course project, not peer reviewed
+
+## Reproducibility / public artifacts
+
+Public portfolio materials document the model structure and interpretation. Restricted ABCD participant-level data are not redistributed.

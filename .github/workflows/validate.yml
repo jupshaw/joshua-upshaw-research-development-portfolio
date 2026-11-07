@@ -5,15 +5,21 @@ on:
   pull_request:
 
 jobs:
-  python-demos:
+  portfolio-validation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
       - run: pip install -r requirements.txt
-      - run: python examples/eeg_qc_demo.py
-      - run: python examples/eye_tracking_metrics_demo.py
-      - run: python examples/clinical_ml_validation_demo.py
-      - run: pytest -q
+      - name: Run public synthetic demos
+        run: |
+          python examples/eeg_qc_demo.py
+          python examples/eye_tracking_metrics_demo.py
+          python examples/clinical_ml_validation_demo.py
+      - name: Run analytical and repository tests
+        run: pytest -q
+      - name: Execute public notebooks
+        run: python tests/execute_notebooks.py

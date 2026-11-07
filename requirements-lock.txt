@@ -1,0 +1,10 @@
+# Exact versions used to validate the public portfolio examples in November 2026.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+matplotlib==3.10.8
+scikit-learn==1.8.0
+nbformat==5.10.4
+nbclient==0.10.4
+ipykernel==7.1.0
+pytest==9.0.2
