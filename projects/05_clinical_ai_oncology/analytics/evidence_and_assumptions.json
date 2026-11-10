@@ -1,0 +1,24 @@
+{
+  "source": {
+    "repository_document": "projects/05_clinical_ai_oncology/METRIC_PROVENANCE.md",
+    "context_document": "projects/05_clinical_ai_oncology/results.md",
+    "scope": "Previously published, aggregate, retrospective single-site oncology feasibility findings. Individual-level predictions and clinic data are not included."
+  },
+  "retrospective_aggregates": {
+    "resolved_cases": 96261,
+    "denial_prevalence": 0.024,
+    "denial_roc_auc": 0.877,
+    "denial_pr_auc": 0.289,
+    "extraction_mean_f1": 0.967,
+    "fully_ready_fraction": 0.002,
+    "strict_policy_tat_percent_longer": 86.1
+  },
+  "illustrative_financial_sensitivity": {
+    "baseline_review_hours_per_month": 2400,
+    "loaded_hourly_cost_usd": [35, 45, 55],
+    "avoidable_effort_fraction": [0.10, 0.25, 0.40],
+    "annual_program_cost_usd": 120000,
+    "months": 12,
+    "status": "Illustrative assumptions, not Hidalga observations, a forecast, or an evaluated economic outcome. Excludes reimbursement effects and implementation timing."
+  }
+}

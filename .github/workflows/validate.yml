@@ -19,6 +19,8 @@ jobs:
           python examples/eeg_qc_demo.py
           python examples/eye_tracking_metrics_demo.py
           python examples/clinical_ml_validation_demo.py
+      - name: Build sourced analytics figures
+        run: python projects/05_clinical_ai_oncology/analytics/visualize.py
       - name: Run analytical and repository tests
         run: pytest -q
       - name: Execute public notebooks

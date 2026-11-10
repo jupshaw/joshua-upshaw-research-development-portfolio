@@ -17,3 +17,9 @@ Fast comparison of the portfolio's flagship work. Evidence labels are intentiona
 - **Clinical data science / ML:** [Clinical AI project](projects/05_clinical_ai_oncology/) -> [Model Card](projects/05_clinical_ai_oncology/MODEL_CARD.md) -> [Metric Provenance](projects/05_clinical_ai_oncology/METRIC_PROVENANCE.md)
 - **Executable examples:** [examples/](examples/) and [notebooks/](notebooks/)
 - **Methods crosswalk:** [METHODS_MATRIX.md](METHODS_MATRIX.md)
+
+## Applied analytics and decision support
+
+- [Executive analytics and visualization report](projects/05_clinical_ai_oncology/analytics/REPORT.md), research-backed model and workflow charts plus a clearly hypothetical cost-sensitivity example.
+- [Reproducible visualization module](projects/05_clinical_ai_oncology/analytics/README.md), Python source, validated inputs, figure assets and tests.
+- [Metric provenance](projects/05_clinical_ai_oncology/METRIC_PROVENANCE.md), retrospective results, simulation and prospective targets kept separate.

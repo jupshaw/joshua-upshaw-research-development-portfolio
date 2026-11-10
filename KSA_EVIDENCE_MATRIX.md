@@ -24,12 +24,16 @@ This matrix answers a hiring-manager question quickly: **what can Joshua do, whe
 | Cross-functional translation | NSF PI leadership across clinical, engineering, operations, compliance, executive, and external stakeholders | Converts technical evidence into requirements, risks, next actions, and investment decisions |
 | Research-to-product judgment | Retrospective feasibility -> telemetry specification -> staged prospective pilot | Uses research to define what should be built and what evidence is required before scaling |
 
-## Traceable evidence links (selected)
+## Public analytics and visualization artifacts (new portfolio enhancement)
 
-| Capability area | Primary evidence files |
-|---|---|
-| Experimental neuroscience (EEG/ERP, spectral EEG) | [projects/01_eeg_erp_digital_distraction/methods.md](projects/01_eeg_erp_digital_distraction/methods.md), [projects/01_eeg_erp_digital_distraction/results.md](projects/01_eeg_erp_digital_distraction/results.md), [projects/02_spectral_eeg_mindfulness/methods.md](projects/02_spectral_eeg_mindfulness/methods.md), [projects/02_spectral_eeg_mindfulness/results.md](projects/02_spectral_eeg_mindfulness/results.md) |
-| Eye-tracking and multimodal attention measurement | [projects/03_eye_tracking_emotional_attention/methods.md](projects/03_eye_tracking_emotional_attention/methods.md), [projects/03_eye_tracking_emotional_attention/results.md](projects/03_eye_tracking_emotional_attention/results.md), [projects/03_eye_tracking_emotional_attention/system_design.md](projects/03_eye_tracking_emotional_attention/system_design.md) |
-| Neuroimaging inference and effect-size calibration | [projects/04_fmri_reward_processing/methods.md](projects/04_fmri_reward_processing/methods.md), [projects/04_fmri_reward_processing/results.md](projects/04_fmri_reward_processing/results.md) |
-| Clinical data science, clinical NLP, and ML validation | [projects/05_clinical_ai_oncology/methods.md](projects/05_clinical_ai_oncology/methods.md), [projects/05_clinical_ai_oncology/results.md](projects/05_clinical_ai_oncology/results.md), [projects/05_clinical_ai_oncology/prospective_design.md](projects/05_clinical_ai_oncology/prospective_design.md), [methods/model_validation.md](methods/model_validation.md) |
-| Governance, limitations awareness, and public-release boundaries | [methods/research_governance.md](methods/research_governance.md), [PUBLIC_DATA_AND_IP_POLICY.md](PUBLIC_DATA_AND_IP_POLICY.md), [RESEARCH_AND_DEVELOPMENT_APPROACH.md](RESEARCH_AND_DEVELOPMENT_APPROACH.md) |
+| Capability | Inspectable artifact | What the artifact demonstrates | Evidence status |
+|---|---|---|---|
+| Data visualization | [Figures A-C](projects/05_clinical_ai_oncology/analytics/README.md) | Designed audience-specific performance, workflow and sensitivity comparisons | Retrospective aggregates for A/B; illustrative assumptions for C |
+| Python analytical programming | [visualize.py](projects/05_clinical_ai_oncology/analytics/visualize.py) | Loads validated inputs, transforms summary metrics, renders vector and raster assets | New portfolio code, not original Phase I source |
+| Quantitative interpretation | [Analytical report](projects/05_clinical_ai_oncology/analytics/REPORT.md) | Interprets rare-event PR-AUC against prevalence and flags causal/operational limits | Retrospective single-site finding |
+| Business intelligence | [Workflow figure](projects/05_clinical_ai_oncology/analytics/figures/02_workflow_priorities.svg) | Reports completeness and indexed payer timing as signals for measurement priorities | Aggregate/derived, not causally estimated |
+| Strategic decision support | [Illustrative sensitivity model](projects/05_clinical_ai_oncology/analytics/evidence_and_assumptions.json) | Links assumed workload, labor rate, effort avoided and program cost to conditional net value | Hypothetical example, no actual clinic ROI |
+| Data quality and provenance | [Source notes](projects/05_clinical_ai_oncology/analytics/figures/SOURCE_NOTES.md) and [tests](tests/test_analytics_visualization.py) | Checks fraction bounds, source contexts, scenario arithmetic and output completeness | Verified local portfolio artifacts |
+| Executive communication | [Report](projects/05_clinical_ai_oncology/analytics/REPORT.md) | Business question, method, visual, interpretation, recommendation and limitation per analysis | Newly authored portfolio material |
+
+**Attribution:** These files demonstrate a new portfolio enhancement created with AI-assisted development. They must not be recast as code independently written during the original NSF SBIR Phase I study.
