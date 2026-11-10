@@ -14,3 +14,6 @@ raw_data/
 private_data/
 phi/
 *.log
+
+# Analytics charts: commit compact SVGs, regenerate PNGs locally
+projects/05_clinical_ai_oncology/analytics/figures/*.png

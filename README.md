@@ -69,6 +69,12 @@ flowchart LR
 
 [Compare all projects side by side](PROJECTS.md)
 
+### Analytics, visualization and decision support
+
+A reproducible, public-safe [Applied AI Analytics, Visualization & Decision Support report](projects/05_clinical_ai_oncology/analytics/REPORT.md) connects **predictive model validation**, **workflow signals** and **illustrative investment sensitivity** to explicit business decisions. Explore the [three analytical figures](projects/05_clinical_ai_oncology/analytics/README.md), [source code](projects/05_clinical_ai_oncology/analytics/visualize.py), [documented inputs](projects/05_clinical_ai_oncology/analytics/evidence_and_assumptions.json) and [tests](tests/test_analytics_visualization.py). Research metrics are historical aggregates; the labor model is hypothetical, not realized savings.
+
+
+
 ---
 
 ## Methods and technical depth

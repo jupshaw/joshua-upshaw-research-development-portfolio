@@ -70,3 +70,7 @@ See [prospective_design.md](prospective_design.md).
 ## Reproducibility / public artifacts
 
 No PHI, clinic raw exports, payer-confidential material, or proprietary production code are released. The public synthetic example in [`examples/clinical_ml_validation_demo.py`](../../examples/clinical_ml_validation_demo.py) demonstrates grouped vs temporal validation, explicit calibration, PR-AUC, Brier/ECE, and workload-aware thresholding.
+
+## Analytical visualization and decision support
+
+The [Applied AI Analytics, Visualization & Decision Support report](analytics/REPORT.md) translates publicly summarized retrospective predictive-model and workflow results into executive visualizations and bounded recommendations. A third figure demonstrates hypothetical labor-only sensitivity using openly documented assumptions. See the [reproducible code and figures](analytics/README.md); no individual clinic data or realized financial benefits are presented.

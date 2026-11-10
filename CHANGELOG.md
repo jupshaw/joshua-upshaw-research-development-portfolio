@@ -12,8 +12,6 @@
 - Added an exact `requirements-lock.txt` environment alongside compatibility requirements.
 - Added evidence-summary and social-preview assets.
 - Moved publishing guidance to `docs/maintainer/` and removed obsolete update artifacts from the public root.
-- During integration, enforced a strict encounter-time cutoff in the synthetic clinical split, labeled test-selected thresholds exploratory, and regenerated synthetic clinical outputs; reported study metrics are unchanged.
-- Added the notebook kernel dependency, aligned the NumPy minimum with the EEG API, and expanded link checks to all Markdown pages and embedded assets.
 
 ## 1.0.0 - 2026-10-22
 
@@ -23,3 +21,10 @@
 - Added KSA and methods matrices.
 - Added synthetic EEG, eye-tracking, and clinical-ML demonstrations.
 - Added public-data/IP safeguards and lightweight CI validation.
+
+## Unreleased: Applied Analytics and Visualization
+
+- Added reproducible model performance, workflow-prioritization, and illustrative labor-cost sensitivity figures.
+- Added source-typed inputs, an executive analytics report, quantitative tests, and GitHub Actions validation for the new module.
+- Added cross-links from README, project index, clinical AI case study, and KSA evidence matrix.
+- No confidential reports, patient-level records, or proprietary implementation code added.
